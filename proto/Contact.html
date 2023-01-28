@@ -1,0 +1,52 @@
+
+<!Doctype html>
+<html oncontextmenu="return false;">
+<head>
+
+
+<title>www.contactus.com</title>
+
+<script>
+function validateform(){
+var name=document.myform.name.value;
+alert("YOU HAVE SUCCESSFULLY REGISTERED...! !");
+return false;
+}
+</script>
+
+
+<link rel="stylesheet" href="Contact.Css">
+
+<body>
+	<center>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h6> Registered Here</h6>
+<br>
+<br>
+<div class="contact-form">
+		<br>
+<br>
+<br>
+
+<form name="myform" action="" method="POST"   onsubmit="return validateform()">
+		<input type="text" placeholder="User name">
+		<br>
+		<br>
+		<input type="text" placeholder="password">
+		<br>
+		<br>
+		<input type="text" placeholder="Contact">
+		<br>
+		<br>
+		<input type="text" placeholder="e-maild id" required="required">
+		<br>
+		<br>
+		<input type="submit" value="submit">
+
+</body>
+
+
+</html>
